@@ -1,0 +1,16 @@
+{
+    "name": "amazonPrimeVideo_freeOnly",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Kill premium contents from Amazon Prime Video",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.amazon.co.jp/Amazon-Video/b/?*"
+        ],
+        "js": [
+          "killPremium.js"
+        ]
+      }
+    ]
+}
