@@ -9,7 +9,7 @@ function remove_premiums(mutationsList, observer){
     let listToRemove = [];
     for (const recommend of recommends) {
         if (recommend.classList.contains("+OSZzQ")) {
-            if (recommend.firstChild.firstChild.firstChild.firstChild.firstChild.firstChild.classList.contains("o86fri")) {
+            if (recommend.firstChild.firstChild.firstChild.firstChild.firstChild.classList.contains("o86fri")) {
                 listToRemove.push(recommend);
             }
         }

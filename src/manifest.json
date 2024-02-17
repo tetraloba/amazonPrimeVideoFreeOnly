@@ -6,7 +6,8 @@
     "content_scripts": [
       {
         "matches": [
-          "https://www.amazon.co.jp/Amazon-Video/b/?*"
+          "https://www.amazon.co.jp/Amazon-Video/b/?*",
+          "https://www.amazon.co.jp/gp/video/storefront/*"
         ],
         "js": [
           "killPremium.js"
